@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+.card{
+    background-color: #000000;
+    max-width: 600px;
+    width: 100%;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: #00000092 0px 5px 15px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+h2{
+    color: white;
+}
+
+input{
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+button{
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: #1947ff;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #1436c0;
+    color: #ffffff;
+}
+
+.signbtn{
+    margin-top: 18px;
+}
+
+.loginbtn{
+    margin-left: 10px;
+}
+
+.logoutbtn{
+    background-color: rgb(248, 46, 46);
+    color: #ffffff;
+}
+
+.logoutbtn:hover{
+    background-color: #b92222;
+    color: #ffffff;
+}
