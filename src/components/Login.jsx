@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Login() {
+function Login(onLoginSuccess) {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -10,6 +10,9 @@ function Login() {
         //matching the signup data to login data
         if (user && user.email === email && user.password === password) {
             alert(`Welcome Back ${user.name}`)
+            window.location.reload() //reload the window after clicking login button
+            onLoginSuccess(user.name) //update the state into true
+           
         } else {
             alert("You are not registered yet!!")
         }

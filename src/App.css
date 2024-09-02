@@ -44,10 +44,6 @@ button:hover{
     color: #ffffff;
 }
 
-.signbtn{
-    margin-top: 18px;
-}
-
 .loginbtn{
     margin-left: 10px;
 }
@@ -61,3 +57,16 @@ button:hover{
     background-color: #b92222;
     color: #ffffff;
 }
+p{
+    color: white;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.message{
+    margin-left: 10px;
+    color: white;
+}
+
